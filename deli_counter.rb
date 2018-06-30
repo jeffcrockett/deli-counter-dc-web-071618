@@ -16,8 +16,7 @@ def line(deli)
   end
   puts the_string
 end
-  take_a_number(katz_deli, "Ada") #=> Welcome, Ada. You are number 1 in line.
 
-def deli_counter(line, name)
+def take_a_number(line, name)
   "Welcome, #{name}. You are number #{line.size} in line."
 end
