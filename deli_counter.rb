@@ -17,11 +17,14 @@ def line(deli)
   puts the_string
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+def take_a_number(line, name)
+  line << name
+  puts "Welcome, #{name}. You are number #{line.size} in line."
 end
 
-def now_serving
-  puts "Currently serving #{katz_deli.shift}."
+def now_serving(line)
+  if line.size == 0 
+    puts "The line is empty."
+  end
+  puts "Currently serving #{line.shift}."
 end
