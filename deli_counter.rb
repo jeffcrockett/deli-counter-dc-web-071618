@@ -17,6 +17,6 @@ def line(deli)
   puts the_string
 end
 
-def take_a_number(line, name)
-  "Welcome, #{name}. You are number #{line.size} in line."
+def take_a_number(katz_deli, name)
+  "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
